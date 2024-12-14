@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "marketplace-api"
+version = "0.1.0"
+description = ""
+authors = ["LostUnion <nsk.19980513@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+requests = "^2.32.3"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
